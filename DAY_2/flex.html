@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FLEX</title>
+    <meta charset="UTF-8">
+        <style>
+            .container
+            {
+background-color: lightgrey;
+                display: flex;
+                flex-direction: row;
+                /* row is default, we can use column to make it vertical*/
+               flex-wrap: wrap;
+                /* instead of those two above lines we can use "flex-flow: row wrap;" */
+
+                
+                justify-content: space-evenly; /*space-around is used to give space around the items*/
+                /*align-items: center; is for vertically arrangement and the above is for horizonatal arrangement*/
+                gap: 10px;
+               /* height: 400px;*/
+                border: 2px solid black;    
+            }
+
+            .box
+            {
+                background-color: lightblue;
+                width: 100px;
+                height: 100px;
+                border: 2px solid black;
+                border-radius: 10px;
+            }
+
+
+        </style>
+</head>
+<body>
+    <h1>FLEX</h1>
+    <p>Flexbox is a one-dimensional layout method for laying out items in rows or columns. It allows for flexible and efficient arrangement of elements within a container, making it easier to design responsive layouts.</p>
+    <div class="container">
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box">Box 3</div>
+        <div class="box">Box 4</div>
+        <div class="box">Box 5</div>
+    </div>
+    <p>Flexbox is particularly useful for creating responsive designs, as it allows elements to adapt to different screen sizes and orientations. It provides properties for alignment, spacing, and distribution of space among items in a container.</p>
+</body>
+</html>
