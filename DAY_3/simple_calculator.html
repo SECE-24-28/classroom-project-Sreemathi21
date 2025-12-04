@@ -1,0 +1,106 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <style>
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    background-color: rgb(130, 183, 213);
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+button
+{
+    padding:10px;
+    margin:10px;
+    font-size:16px;
+    font-weight:bold;
+    border-radius:5px;
+    cursor:pointer;
+    box-shadow:2px 2px 5px rgb(12, 171, 199);
+
+}
+#t1, #t2, #t3
+{
+    padding:10px;   
+    margin:10px;
+    font-size:16px;
+    border-radius:5px;
+        border:1px solid black;
+        font-family:
+    'Times New Roman', Times, serif;
+    box-shadow: 2px 2px 5px rgb(12, 125, 185);
+}
+        </style>
+
+<script>
+            function add()
+            {
+             
+var a=parseInt(document.getElementById("t1").value);
+var b=parseInt(document.getElementById("t2").value);
+var c=a+b;
+document.getElementById("t3").value=c;
+
+            }
+
+            function sub()
+            {
+                var a= document.getElementById("t1").value;
+                var b=document.getElementById("t2").value;
+                var x=parseInt(a);
+                 var y=parseInt(b);
+                 var na=x-y;
+                 document.getElementById("t3").value= na;
+            }
+
+            function mul()
+            {
+                var a= document.getElementById("t1").value;
+                var b=document.getElementById("t2").value;
+                var x=parseInt(a);
+                 var y=parseInt(b);
+                 var na=x*y;
+                 document.getElementById("t3").value= na;
+            }
+
+            function div()
+            {
+                var a= document.getElementById("t1").value;
+                var b=document.getElementById("t2").value;
+                var x=parseInt(a);
+                 var y=parseInt(b);
+                 var na=x/y;
+                 document.getElementById("t3").value= na;
+            }
+        </script>
+    </head>
+    <body>
+        <h1 align="center">Simple Calculator</h1>
+        <table align="center"   cellpadding="10" cellspacing="10"> 
+            <tr>
+                 <td><input type="text" placeholder="Enter First Number" id="t1"></td>
+                <td><button onclick="add()">Addition</button></td>
+                 <td><button onclick="mul()">Multiplication</button></td>
+               
+            </tr>
+            <tr>
+                <td><input type="text" placeholder="Enter Second Number" id="t2"></td>
+                <td><button onclick="sub()">Subtraction</button></td>
+                 <td colspan="2"><button onclick="div()">Division</button></td>
+            </tr>
+            <tr>
+                <td><input type="text" placeholder="Answer" id="t3"></td>
+               
+            </tr>
+            <tr>
+                <td></td>
+               
+    </body>
+</html>
+
+
+

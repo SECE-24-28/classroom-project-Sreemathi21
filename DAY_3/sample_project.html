@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Travel project</title>
+        <style>
+*
+{
+    padding:0px;
+    margin:0px;
+}
+nav{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: white;
+}
+
+ol{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+li{
+    padding-left: 10px;
+    font-size: 1.2rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+video{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    z-index: -1;     /*to go back behind the nav bar*/
+
+}
+
+.txt
+{
+    color: white;
+    position: fixed;
+    top:200px;
+    left:20px;
+
+}
+
+p{
+    width:600px;
+}
+
+img{
+    width: 30px;
+    height: 30px;
+    padding-left:5px;
+    border-radius: 50%;
+
+}
+
+img:hover{
+    transform:translateY(-5px);
+}
+
+footer{
+    position: fixed;
+    left: 20px;
+    bottom: 10px;
+}
+
+button{
+    padding: 5px;
+    transition: all 0.4s;
+    font-family: cursive;
+}
+
+button:hover
+{
+    letter-spacing: 4px;
+    background-color: cadetblue;
+}
+
+        </style>
+    </head>
+    <body>
+        <header class="cont">
+            <nav>
+                <h1>TRAVEL</h1>
+                <ol class="ls">
+                    <li>HOME</li>
+                    <li>ABOUT</li>
+                    <li>DESTINATIONS</li>
+                    <li>GALLERY</li>
+                    <li>CONTACT</li>
+                </ol>
+            </nav>
+            <main>
+                <video src="3571264-uhd_3840_2160_30fps.mp4" autoplay muted loop></video>
+            </main>
+            <div class="txt">
+                <h2>Explore the World</h2><br><br>
+                <p><i><b>Traveling – it leaves you speechless, then turns you into a storyteller. Discover new places, cultures, and experiences that will enrich your life forever.</b></i></p>
+                <br>
+
+                <button>Learn More</button>
+            </div>
+            <footer>
+                <p>Copyright © 2024 Travel Co.</p>
+                <ol>
+                    <li>
+<img src="fb.png" alt="facebook" >
+                    </li>
+                <li><img src="WH.png" alt="whatsapp"></li>
+                <li><img src="TW.png" alt="instagram"></li>
+                </footer>   
+        </header>
+    
+    </body>
+</html>

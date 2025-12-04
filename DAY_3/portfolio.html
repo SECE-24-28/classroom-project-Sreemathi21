@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Sample Project</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: lightgrey;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        nav {
+            height: 100px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: darkgrey;
+        }
+
+        ol {
+            list-style-type: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: black;
+            font-size: 1.2rem;
+        }
+
+        /* ---------- Main container for horizontal layout ---------- */
+        .content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 40px;
+            gap: 40px;  /* space between image and text */
+        }
+
+        img {
+            width: 300px;
+            height: auto;
+            border-radius: 40%;
+        }
+
+        .txt {
+            max-width: 40%;
+        }
+
+        .txt h2 {
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <h1>SREEMATHI M</h1>
+        <ol>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">PROJECTS</a></li>
+            <li><a href="#">ACADEMICS</a></li>
+            <li><a href="#">CONTACT</a></li>
+        </ol>
+    </nav>
+
+    <!-- IMAGE AND TEXT SIDE BY SIDE -->
+    <div class="content">
+        <img src="WhatsApp Image 2025-12-03 at 10.32.41_915e7085.jpg" alt="Profile Image">
+
+        <div class="txt">
+            <h2>SREEMATHI M</h2>
+            <p>
+                I am a second-year student pursuing B.Tech in Computer Science 
+                and Engineering at Sri Eshwar College of Engineering, Coimbatore.
+            </p>
+        </div>
+    </div>
+
+</header>
+
+</body>
+</html>
