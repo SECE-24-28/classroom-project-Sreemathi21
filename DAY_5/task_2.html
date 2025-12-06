@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>  
+<head>
+    </head> 
+    <body id="main">
+    
+        <input type="text" id="t1">
+        <ol id="olist"></ol>
+
+<script>
+    let t1=document.getElementById("t1");
+    let olist=document.getElementById("olist");
+let arr=["sree","ajay","vijay","ram","sam","jam","jamuna","janu","manu","banu","tanu","sangee"];
+function demo(){
+    olist.innerHTML="";
+    arr.forEach((value)=>{
+        if(value.includes(t1.value)){
+            let li=document.createElement("li");
+            li.innerText=value;
+            olist.appendChild(li);
+        }
+    });
+    
+}
+    t1.addEventListener("keyup",demo);
+    demo();
+</script>
+    </body>
+</html> 
