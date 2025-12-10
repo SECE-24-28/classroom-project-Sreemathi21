@@ -1,4 +1,4 @@
-import './App.css'
+/*import './App.css'
 import Header from './Header.jsx'
 import Content from './Content.jsx'
 
@@ -17,4 +17,17 @@ let demo=(name)=>{
   )
 }
 
-export default App
+export default App*/
+
+import React from "react";
+import Counter from "./Counter";
+
+const App = () => {
+  return (
+    <div>
+      <Counter />
+    </div>
+  );
+};
+
+export default App;
