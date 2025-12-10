@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Demo</title>
+    <script>
+        function saveData()
+        {
+        let t=document.getElementById("data");
+         localStorage.setItem("name",t.value);
+         t.value="";
+        }
+        function saveData1()
+        {
+        let t1=document.getElementById("data1");
+        let t2=document.getElementById("data2");
+        let n=t1.value;
+        let p=t2.value;
+        let name={first:n,second:p}
+         localStorage.setItem("name1",JSON.stringify(name));
+         t1.value="";
+         t2.value="";
+        }
+    </script>
+</head>
+<body>
+    <input type="text" id="data"/>
+    <button onclick="saveData()">save data</button><br/><br/>
+    <input type="text" id="data1"/>
+    <input type="text" id="data2"/>
+    <button onclick="saveData1()">save data</button>
+    <inpu
+</body>
+</html>
