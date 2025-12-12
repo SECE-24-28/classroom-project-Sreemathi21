@@ -1,0 +1,20 @@
+.home {
+  background-color: #d8bfbf;
+  padding: 20px;
+  margin: 70px 0;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+body{
+    background-color: blanchedalmond;
+}
+
+.home h3 {
+  color: #a51515;
+}
+
+.home p {
+margin-top: 10px;
+  font-size: 14px;
+  color:darkgoldenrod
+}

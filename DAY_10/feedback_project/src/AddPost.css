@@ -1,0 +1,41 @@
+.add-container {
+ 
+  justify-content: center;
+  margin-top: 20px;
+  flex-wrap: row wrap;
+   display: flex;
+   background-color: pink;
+   border-radius: 20px;
+   
+}
+
+.add-form {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.add-form input,
+.add-form textarea {
+  padding: 10px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.add-form button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 18px;
+  cursor: pointer;
+}
+
+.add-form button:hover {
+  background-color: #16d33c;
+  box-shadow: #16d33c;
+}
