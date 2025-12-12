@@ -1,0 +1,19 @@
+{
+    "students": [
+        {
+            "id": 1,
+            "name": "sree",
+            "marks": 98
+        },
+        {
+            "id": 2,
+            "name": "priya",
+            "marks": 100
+        },
+        {
+            "id": 3,
+            "name": "sangeetha",
+            "marks": 99
+        }
+    ]
+}
